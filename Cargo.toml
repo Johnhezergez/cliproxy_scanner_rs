@@ -1,0 +1,20 @@
+[package]
+name = "cliproxy_scanner_rs"
+version = "0.1.0"
+edition = "2021"
+description = "CLI Proxy API cleanup tool for identifying and removing invalid and quota-limited auth files"
+readme = "README.md"
+repository = "https://github.com/Johnhezergez/cliproxy_scanner_rs"
+homepage = "https://github.com/Johnhezergez/cliproxy_scanner_rs"
+license = "MIT"
+keywords = ["codex", "proxy", "scanner", "cleanup", "cli"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive", "env"] }
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+url = "2"
+rayon = "1"
