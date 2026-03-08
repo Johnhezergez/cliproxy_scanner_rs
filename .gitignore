@@ -1,0 +1,18 @@
+/target/
+/dist/
+*.json
+!Cargo.lock
+
+# local scan outputs
+scan-*.json
+rescan-*.json
+full-rescan*.json
+delete-*.json
+last-run.json
+scan-latest.json
+
+# editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
