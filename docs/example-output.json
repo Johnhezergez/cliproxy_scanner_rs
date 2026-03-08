@@ -1,0 +1,26 @@
+{
+  "summary": {
+    "total": 2376,
+    "unauthorized_401": 3,
+    "weekly_quota_zero": 0,
+    "ok": 2076,
+    "errors": 0,
+    "management_quota_exhausted": 0,
+    "status_code_buckets": {
+      "200": 2076,
+      "401": 3,
+      "429": 297
+    },
+    "reason_buckets": {
+      "probe_status_401": 3
+    },
+    "static_matched": 0,
+    "active_probed": 2376
+  },
+  "deletion": {
+    "requested": false,
+    "target_count": 0,
+    "confirmed": false,
+    "deleted_count": 0
+  }
+}
